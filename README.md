@@ -5,7 +5,7 @@ Home: https://github.com/borntyping/python-colorlog
 
 Package license: MIT
 
-Feedstock license: BSD
+Feedstock license: BSD 3-Clause
 
 Summary: Log formatting with colors!
 
