@@ -6,7 +6,7 @@ package:
 
 source:
   fn: colorlog-{{ version }}.tar.gz
-  url: https://pypi.python.org/packages/source/c/colorlog/colorlog-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/c/colorlog/colorlog-{{ version }}.tar.gz
   md5: 7c80dc31fb37ae5f7d519b6796f7a7e0
 
 build:
