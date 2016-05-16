@@ -69,6 +69,7 @@ Terminology
 
 Current build status
 ====================
+
 Linux: [![Circle CI](https://circleci.com/gh/conda-forge/colorlog-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/colorlog-feedstock)
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/colorlog-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/colorlog-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/colorlog-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/colorlog-feedstock/branch/master)
