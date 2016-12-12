@@ -11,6 +11,18 @@ Summary: Log formatting with colors!
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/colorlog-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/colorlog-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/colorlog-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/colorlog-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/colorlog-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/colorlog-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/colorlog/badges/version.svg)](https://anaconda.org/conda-forge/colorlog)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/colorlog/badges/downloads.svg)](https://anaconda.org/conda-forge/colorlog)
+
 Installing colorlog
 ===================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `colorlog` available on your platf
 ```
 conda search colorlog --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/colorlog-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/colorlog-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/colorlog-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/colorlog-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/colorlog-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/colorlog-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/colorlog/badges/version.svg)](https://anaconda.org/conda-forge/colorlog)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/colorlog/badges/downloads.svg)](https://anaconda.org/conda-forge/colorlog)
 
 
 Updating colorlog-feedstock
