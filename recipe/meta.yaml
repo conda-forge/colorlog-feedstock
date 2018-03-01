@@ -1,4 +1,4 @@
-{% set version = "3.1.0" %}
+{% set version = "3.1.2" %}
 
 package:
   name: colorlog
@@ -7,7 +7,7 @@ package:
 source:
   fn: colorlog-{{ version }}.tar.gz
   url: https://pypi.org/packages/source/c/colorlog/colorlog-{{ version }}.tar.gz
-  sha256: f7c0efd9d960b43929027aa2b5a6c80d8ebec3e8d87cdec8b92696bf57428284
+  sha256: 7f94b6a88e789e68025b84f2581c17a52c8fb3c07e07a23e7e22bf774dd34144
 
 build:
   number: 0
