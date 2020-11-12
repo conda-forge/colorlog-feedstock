@@ -1,4 +1,4 @@
-{% set version = "4.4.0" %}
+{% set version = "4.6.2" %}
 
 package:
   name: colorlog
@@ -7,10 +7,10 @@ package:
 source:
   fn: colorlog-{{ version }}.tar.gz
   url: https://pypi.org/packages/source/c/colorlog/colorlog-{{ version }}.tar.gz
-  sha256: 0272c537469ab1e63b9915535874d15b671963c9325db0c4891a2aeff97ce3d1
+  sha256: 54e5f153419c22afc283c130c4201db19a3dbd83221a0f4657d5ee66234a2ea4
 
 build:
-  number: 1
+  number: 0
   script: {{ PYTHON }} setup.py install --single-version-externally-managed --record=record.txt
 
 requirements:
