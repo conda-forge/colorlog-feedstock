@@ -10,8 +10,8 @@ source:
   sha256: 59b53160c60902c405cdec28d38356e09d40686659048893e026ecbd589516b1
 
 build:
-  number: 0
-  script: {{ PYTHON }} setup.py install --single-version-externally-managed --record=record.txt
+  number: 1
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   build:
@@ -19,7 +19,8 @@ requirements:
     - cross-python_{{ target_platform }}     # [build_platform != target_platform]
   host:
     - python
-    - setuptools
+    - pip
+    - setuptools >=38.6.0
     - colorama  # [win]
 
   run:
@@ -29,6 +30,10 @@ requirements:
 test:
   imports:
     - colorlog
+  commands:
+    - pip check
+  requires:
+    - pip
 
 about:
   home: https://github.com/borntyping/python-colorlog
