@@ -388,4 +388,5 @@ Feedstock Maintainers
 
 * [@forrestwaters](https://github.com/forrestwaters/)
 * [@frol](https://github.com/frol/)
+* [@xylar](https://github.com/xylar/)
 
