@@ -1,5 +1,5 @@
 {% set name = "colorlog" %}
-{% set version = "6.8.0" %}
+{% set version = "6.8.2" %}
 
 package:
   name: colorlog
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/colorlog-{{ version }}.tar.gz
-  sha256: fbb6fdf9d5685f2517f388fb29bb27d54e8654dd31f58bc2a3b217e967a95ca6
+  sha256: 3e3e079a41feb5a1b64f978b5ea4f46040a94f11f0e8bbb8261e3dbbeca64d44
 
 build:
   number: 0
