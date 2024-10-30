@@ -1,5 +1,5 @@
 {% set name = "colorlog" %}
-{% set version = "6.8.2" %}
+{% set version = "6.9.0" %}
 
 package:
   name: colorlog
@@ -7,24 +7,24 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/colorlog-{{ version }}.tar.gz
-  sha256: 3e3e079a41feb5a1b64f978b5ea4f46040a94f11f0e8bbb8261e3dbbeca64d44
+  sha256: bfba54a1b93b94f54e1f4fe48395725a3d92fd2a4af702f6bd70946bdc0c6ac2
 
 build:
-  number: 1
+  number: 0
+  noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
 requirements:
-  build:
-    - python                                 # [build_platform != target_platform]
-    - cross-python_{{ target_platform }}     # [build_platform != target_platform]
   host:
-    - python
+    - python >=3.6
     - pip
-    - setuptools
+    - setuptools >=38.6.0
     - colorama  # [win]
 
   run:
-    - python
+    - python >=3.6
+    - __unix  # [unix]
+    - __win   # [win]
     - colorama  # [win]
 
 test:
