@@ -147,6 +147,3 @@ Feedstock Maintainers
 * [@frol](https://github.com/frol/)
 * [@xylar](https://github.com/xylar/)
 
-
-<!-- dummy commit to enable rerendering -->
-
