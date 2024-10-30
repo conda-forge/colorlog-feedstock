@@ -20,7 +20,7 @@ requirements:
   host:
     - python
     - pip
-    - setuptools
+    - setuptools >=38.6.0
     - colorama  # [win]
 
   run:
