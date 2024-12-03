@@ -6,23 +6,23 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/colorlog-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/colorlog-{{ version }}.tar.gz
   sha256: bfba54a1b93b94f54e1f4fe48395725a3d92fd2a4af702f6bd70946bdc0c6ac2
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
 requirements:
   host:
-    - python >=3.6
+    - python {{ python_min }}
     - pip
     - setuptools >=38.6.0
     - colorama  # [win]
 
   run:
-    - python >=3.6
+    - python >={{ python_min }}
     - __unix  # [unix]
     - __win   # [win]
     - colorama  # [win]
@@ -32,6 +32,7 @@ test:
     - colorlog
   requires:
     - pip
+    - python {{ python_min }}
   commands:
     - pip check
 
